@@ -260,40 +260,6 @@ body._lock {
     transform: rotate(45deg);
 }
 
-.dropmenu.active .dropcontent {
-    display: flex;
-}
-
-.dropcontent {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 65px;
-    z-index: 1;
-    background: rgba(0, 0, 0, 0.75);
-    border-radius: 3px;
-    width: 55px;
-    padding: 6px 8px;
-}
-
-.dropitem {
-    margin-bottom: 2px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 1.2px;
-    line-height: 1.4;
-    text-transform: uppercase;
-    transition: color .1s linear;
-}
-
-.dropitem:last-child {
-    margin-bottom: 0;
-}
-
-.dropitem:hover {
-    color: #FFB548;
-}
-
 .header__icons {
     border-left: 1px solid rgba(255, 255, 255, .5);
     padding-left: 20px;
